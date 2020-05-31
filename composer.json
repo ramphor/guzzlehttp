@@ -1,0 +1,14 @@
+{
+    "name": "ramphor/guzzlehttp",
+    "description": "Guzzle HTTP Client for WordPress plugins",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
