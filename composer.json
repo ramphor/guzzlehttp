@@ -1,5 +1,5 @@
 {
-    "name": "ramphor/guzzlehttp",
+    "name": "ramphor/guzzle",
     "description": "Guzzle HTTP Client for WordPress plugins",
     "type": "library",
     "license": "MIT",
