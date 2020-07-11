@@ -1,4 +1,6 @@
 <?php
+use GuzzleHttp\Client;
+
 function load_base_guzzle()
 {
     $base_autoload = sprintf('%s/base/autoload.php', dirname(__FILE__));
@@ -15,5 +17,7 @@ function load_guzzle_version()
     }
 }
 
-load_base_guzzle();
-load_guzzle_version();
+if (!class_exists(Client::class)) {
+    load_base_guzzle();
+    load_guzzle_version();
+}
