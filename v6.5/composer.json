@@ -1,0 +1,25 @@
+{
+    "name": "ramphor/guzzle-v6",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/polyfill-php72": "1.17.0",
+        "symfony/polyfill-mbstring": "v1.17.1",
+        "symfony/polyfill-intl-idn": "1.17.1"
+    },
+    "config": {
+        "vendor-dir": "./"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "src/"
+        },
+        "files": [
+            "src/functions_include.php"
+        ]
+    }
+}

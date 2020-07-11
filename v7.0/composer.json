@@ -1,0 +1,23 @@
+{
+    "name": "ramphor/guzzle-v7",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "1.0.1"
+    },
+    "config": {
+        "vendor-dir": "./"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "src/"
+        },
+        "files": [
+            "src/functions_include.php"
+        ]
+    }
+}
