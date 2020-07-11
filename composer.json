@@ -19,7 +19,7 @@
     },
     "autoload": {
         "files": [
-            "./ramphor-guzzle.php"
+            "./guzzle.php"
         ]
     }
 }
