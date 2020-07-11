@@ -11,7 +11,11 @@ function load_base_guzzle()
 
 function load_guzzle_version()
 {
-    $version_autoload = sprintf('%s/v%s/autoload.php', dirname(__FILE__), PHP_VESION_ID >= 70205 ? '7.0' : '6.5');
+    $load_version = '6.5';
+    if (version_compare(phpversion(), '7.2.5', '>=')) {
+        $load_version = '7.0';
+    }
+    $version_autoload = sprintf('%s/v%s/autoload.php', dirname(__FILE__), $load_version);
     if (file_exists($version_autoload)) {
         require_once $version_autoload;
     }
