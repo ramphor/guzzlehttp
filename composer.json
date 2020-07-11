@@ -12,5 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "ext-json": "*"
+    },
+    "provide": {
+        "psr/http-client-implementation": "1.0"
     }
 }
