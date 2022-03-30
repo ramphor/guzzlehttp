@@ -9,7 +9,7 @@
     "require": {
         "ralouphie/getallheaders": "3.0.3",
         "psr/http-message": "1.0.1",
-        "guzzlehttp/psr7": "1.6.1",
+        "guzzlehttp/psr7": "1.8.4",
         "guzzlehttp/promises": "1.3.1"
     },
     "config": {
